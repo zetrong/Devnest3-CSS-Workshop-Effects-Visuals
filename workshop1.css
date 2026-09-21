@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: #f1f5f9;
+    padding: 36px;
+}
+
+.profile-card{
+    width: 280px;
+    padding: 28px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 5px 10px 30px rgba(15, 23, 42, 0.14);
+    text-align: center;
+}
+
+.avatar{
+    margin: 0 auto 16px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    line-height:50px;
+}
+.name{
+    margin-bottom: 0px;
+    font-size: 22px;
+
+}
+
+.role{  
+    color: #475569;
+    opacity: 0.72;
+    margin-bottom: 15px;
+}
+
+.bio{
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.badge{
+    margin-top: 30px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 700;
+    background: #e0f2fe;
+    color: #075985;
+    padding: 8px 16px;
+}

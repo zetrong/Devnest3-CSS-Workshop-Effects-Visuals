@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: #e4e6e8;
+    padding: 36px;
+}
+
+.lesson-tile{
+    width: 350px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 5px 10px 30px rgba(15, 23, 42, 0.14);
+
+}
+
+.cover{
+    text-align: center;
+    line-height: 140px;
+    background: #ababab;
+    background: linear-gradient(150deg,rgba(171, 171, 171, 1) 0%, rgba(94, 94, 94, 1) 100%);
+    border-radius: 15px;
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+    height: 140px;
+    margin: 0 0 15px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+p{
+    color: #7a889a;
+
+    margin-bottom: 15px;
+}
+
+.status{
+    background: #f1f5f9;
+    color: #64748b;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 16px;
+}
